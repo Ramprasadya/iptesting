@@ -39,7 +39,7 @@ export default function Home() {
           </ul>
         </div>
       ):(
-        <p>Not Found</p>
+        <p>Not Details have to display</p>
       )}
     </>
   );
