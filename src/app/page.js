@@ -27,7 +27,7 @@ export default function Home() {
           Get IP Detail
         </button>
       </div>
-      {data && (
+      {data ? (
         <div className="text-center mt-8 ">
           <h2>IP Details:</h2>
           <ul>
@@ -38,6 +38,8 @@ export default function Home() {
             ))}
           </ul>
         </div>
+      ):(
+        <p>Not Found</p>
       )}
     </>
   );
